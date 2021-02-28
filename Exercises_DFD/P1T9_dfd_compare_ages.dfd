@@ -1,0 +1,73 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+157
+"SOFT- COMPARE AGES V 1.0
+Maker: Juan David Buitrago
+This software compare the year of birth of two persons
+Type/input the year birth of the first person"
+5
+1
+7
+v_year1
+4
+1
+50
+"Type/input the year of birth of the secon person"
+5
+1
+7
+v_year2
+7
+0
+1
+32
+v_year1 > 2021 OR v_year2 > 2021
+6
+2
+6
+v_age1
+14
+2021 - v_year1
+6
+v_age2
+14
+2021 - v_year2
+7
+0
+1
+15
+v_age1 = v_age2
+7
+0
+1
+15
+v_age1 < v_age2
+4
+1
+27
+"The youngest is ", v_year2
+13
+4
+1
+27
+"The youngest is ", v_year1
+13
+13
+4
+1
+28
+"They are both the same age"
+13
+13
+4
+1
+78
+"ERR: These years are not valid - the years of birth should be less than 2021"
+13
+1

@@ -1,0 +1,71 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+130
+"SOFT- PAYPOINT V 1.0
+Maker: Juan David Buitrago
+This software calculates the price of 4 products plus the IVA of a supermarket"
+4
+1
+102
+"Welcome to paradise supermarket - Please enter the price of the first product of your purchase below"
+5
+1
+15
+v_first_product
+4
+1
+69
+"Please enter the price of the second product of your purchase below"
+5
+1
+16
+v_second_product
+4
+1
+68
+"Please enter the price of the third product of your purchase below"
+5
+1
+15
+v_third_product
+4
+1
+69
+"Please enter the price of the fourth product of your purchase below"
+5
+1
+16
+v_fourth_product
+7
+0
+1
+67
+v_first_product+v_second_product+v_third_product+v_fourth_product<0
+4
+1
+77
+"ERR: These prices are not valid - Purchase prices must be greater than 1000"
+13
+6
+2
+5
+total
+71
+v_first_product + v_second_product + v_third_product + v_fourth_product
+4
+ IVA
+12
+total * 1.19
+4
+1
+52
+"The age of the person is: ", total , " years old"
+
+13
+1
