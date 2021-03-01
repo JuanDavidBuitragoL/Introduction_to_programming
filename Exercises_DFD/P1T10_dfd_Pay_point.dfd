@@ -6,66 +6,67 @@
 0
 4
 1
-130
-"SOFT- PAYPOINT V 1.0
-Maker: Juan David Buitrago
-This software calculates the price of 4 products plus the IVA of a supermarket"
+117
+"SOFT-PAY V 1.0  MAKER: Juan David Buitrago Lozano - this software calculate the price of a purchase whit 4 products"
 4
 1
-102
-"Welcome to paradise supermarket - Please enter the price of the first product of your purchase below"
+25
+"Input the first product"
 5
 1
-15
-v_first_product
+2
+P1
 4
 1
-69
-"Please enter the price of the second product of your purchase below"
+26
+"Input the second product"
 5
 1
-16
-v_second_product
+2
+P2
 4
 1
-68
-"Please enter the price of the third product of your purchase below"
+25
+"Input the third product"
 5
 1
-15
-v_third_product
+2
+P3
 4
 1
-69
-"Please enter the price of the fourth product of your purchase below"
+26
+"Input the fourth product"
 5
 1
-16
-v_fourth_product
+2
+P4
 7
 0
 1
-67
-v_first_product+v_second_product+v_third_product+v_fourth_product<0
-4
-1
-77
-"ERR: These prices are not valid - Purchase prices must be greater than 1000"
-13
+40
+P1 <= 0 OR P2 <= 0 OR P3 <= 0 OR P4 <= 0
 6
-2
+3
+3
+SUM
+17
+P1 + P2 + P3 + P4
 5
-total
-71
-v_first_product + v_second_product + v_third_product + v_fourth_product
-4
- IVA
-12
-total * 1.19
+IVA19
+10
+SUM * 0.19
+5
+TOTAL
+11
+SUM + IVA19
 4
 1
-52
-"The age of the person is: ", total , " years old"
-
+96
+"The Gross value is: $", SUM, " the tax IVA 19% is : $", IVA19, " the total invoice is $", TOTAL
+13
+4
+1
+46
+"ERR: Some of the products are less than zero"
 13
 1
