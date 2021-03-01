@@ -1,0 +1,138 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+146
+"SOFT - BLOOD PRESSURE V 1.0  MAKER: Juan David Buitrago Lozano - This software determines the status of the person based on their blood pressure"
+4
+1
+98
+"Welcome - Please write below if you want to know about your Systolic(S) or Diastolic(D) pressure"
+5
+1
+2
+SD
+7
+0
+1
+9
+SD = "S" 
+4
+1
+44
+"Please enter your diastolic pressure below"
+5
+1
+2
+DP
+7
+0
+1
+8
+DP <= 10
+7
+0
+1
+7
+DP < 80
+7
+0
+1
+21
+DP >= 80 AND DP <= 89
+7
+0
+1
+21
+DP >= 90 AND DP <= 99
+4
+1
+110
+"You may have a very serious health problem or have taken your blood pressure wrong - please consult a doctor"
+13
+4
+1
+76
+"You suffer from stage 1 hypertension - I recommend that you visit a doctor"
+13
+13
+4
+1
+71
+"You suffer from Prehypertension - I recommend that you visit a doctor"
+13
+13
+4
+1
+27
+"You are in good condition"
+13
+13
+4
+1
+49
+"ERR: This value is not valid - please try again"
+13
+13
+4
+1
+43
+"Please enter your systolic pressure below"
+5
+1
+2
+SP
+7
+0
+1
+8
+SP <= 10
+7
+0
+1
+8
+SP < 120
+7
+0
+1
+23
+SP >= 120 AND SP <= 139
+7
+0
+1
+23
+SP >= 140 AND SP <= 159
+4
+1
+110
+"You may have a very serious health problem or have taken your blood pressure wrong - please consult a doctor"
+13
+4
+1
+76
+"You suffer from stage 1 hypertension - I recommend that you visit a doctor"
+13
+13
+4
+1
+71
+"You suffer from Prehypertension - I recommend that you visit a doctor"
+13
+13
+4
+1
+27
+"You are in good condition"
+13
+13
+4
+1
+49
+"ERR: This value is not valid - please try again"
+13
+13
+1
