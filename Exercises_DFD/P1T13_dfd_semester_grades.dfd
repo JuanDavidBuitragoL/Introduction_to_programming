@@ -1,0 +1,63 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+125
+"SOFT- SEMESTER GRADES V 1.0  MAKER: Juan David Buitrago Lozano - this software calculate a student's grades in the semester"
+4
+1
+46
+"Please write your exam grades in order below"
+5
+1
+8
+v_grade1
+5
+1
+8
+v_grade2
+5
+1
+8
+v_grade3
+5
+1
+8
+v_grade4
+7
+0
+1
+60
+v_grade1 < 0 OR v_grade2 < 0 OR v_grade3 < 0 OR v_grade4 < 0
+7
+0
+1
+60
+v_grade1 > 5 OR v_grade2 > 5 OR v_grade3 > 5 OR v_grade4 > 5
+6
+1
+7
+v_total
+75
+(v_grade1 * 0.2) + (v_grade2 * 0.25) + (v_grade3 * 0.25) + (v_grade4 * 0.3)
+4
+1
+48
+" Your final grade of the semester is:", v_total
+13
+4
+1
+44
+"ERR: Note range is from 0 to 5 - try again"
+13
+13
+4
+1
+44
+"ERR: Note range is from 0 to 5 - try again"
+13
+1
