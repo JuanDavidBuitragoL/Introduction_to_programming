@@ -1,0 +1,41 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+114
+"SOFT-HYPOTENUSE V 1.0  MAKER: Juan David Buitrago Lozano - This software calculates the hypotenuse of a triangle"
+4
+1
+40
+"Please insert the value of leg 1 below"
+5
+1
+6
+v_leg1
+4
+1
+40
+"Please insert the value of leg 2 below"
+5
+1
+6
+v_leg2
+6
+2
+11
+hypotenuse1
+27
+(v_leg1 * 2) + (v_leg2 * 2)
+10
+hypotenuse
+17
+sqrt(hypotenuse1)
+4
+1
+48
+"The hypotenuse of the triangle is:", hypotenuse
+1

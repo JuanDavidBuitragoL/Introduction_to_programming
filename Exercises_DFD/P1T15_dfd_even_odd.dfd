@@ -1,0 +1,40 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+126
+"SOFT-EVEN OR ODD V 1.0  MAKER: Juan David Buitrago Lozano - This software tells you if the number you entered is odd or even"
+4
+1
+34
+"Please enter the number you want"
+5
+1
+5
+v_num
+6
+1
+9
+v_residue
+11
+v_num MOD 2
+7
+0
+1
+9
+v_num = 0
+4
+1
+25
+v_num," is an odd number"
+13
+4
+1
+26
+v_num," is an even number"
+13
+1

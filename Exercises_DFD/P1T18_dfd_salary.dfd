@@ -1,0 +1,59 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+108
+"SOFT-SALARY V 1.0  MAKER: Juan David Buitrago Lozano - this software calculates the salary of an employee."
+4
+1
+32
+"Please write your salary below"
+5
+1
+8
+v_salary
+7
+0
+1
+12
+v_salary <=0
+4
+1
+58
+"Please write how many days you worked in the month below"
+5
+1
+8
+v_months
+7
+0
+1
+29
+v_months < 1 OR v_months > 31
+6
+1
+9
+v_salaryM
+26
+((v_salary/30) * v_months)
+4
+1
+50
+"Your salary this month is:" , v_salaryM, " pesos"
+13
+4
+1
+57
+"ERR: The number is incorrect - a month has 1 to 31 days"
+13
+13
+4
+1
+46
+"ERR: The salary number cannot be less than 0"
+13
+1

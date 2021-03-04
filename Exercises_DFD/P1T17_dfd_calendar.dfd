@@ -1,0 +1,56 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+109
+"SOFT-CALENDAR V 1.0  MAKER: Juan David Buitrago Lozano - This software determines the days that a month has"
+4
+1
+27
+"Put the number of a month"
+5
+1
+7
+v_month
+7
+0
+1
+26
+v_month < 1 OR v_month >12
+7
+0
+1
+82
+v_month= 1 OR v_month= 4 OR v_month= 6 OR v_month= 9 OR v_month= 10 OR v_month= 11
+7
+0
+1
+10
+v_month= 2
+4
+1
+23
+"The month has 31 days"
+13
+4
+1
+23
+"The month has 27 days"
+13
+13
+4
+1
+23
+"The month has 30 days"
+13
+13
+4
+1
+57
+"ERR: The number is not valid - there are only 12 months"
+13
+1
