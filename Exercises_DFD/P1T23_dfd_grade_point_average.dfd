@@ -1,0 +1,82 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+118
+"SOFT-GRADE AVERAGE V 1.0  MAKER: Juan David Buitrago Lozano - this software calculates the average grade of a course"
+4
+1
+29
+"Type the number of students"
+5
+1
+16
+v_total_students
+7
+0
+1
+20
+v_total_students <0 
+6
+2
+5
+v_sum
+1
+0
+9
+v_average
+1
+0
+8
+1
+1
+i
+1
+1
+1
+1
+16
+v_total_students
+1
+1
+1
+4
+1
+32
+"Type the grades of the student"
+5
+1
+28
+v_grade1, v_grade2, v_grade3
+6
+2
+13
+v_final_grade
+48
+v_grade1 * 0.2 + v_grade2 * 0.3 + v_grade3 * 0.5
+5
+v_sum
+21
+v_sum + v_final_grade
+10
+6
+1
+9
+v_average
+24
+v_sum / v_total_students
+4
+1
+69
+"For ", v_total_students," student(s) the avergement is: ", v_average
+13
+4
+1
+32
+"ERR: Grades can only be 0 to 5"
+13
+1
