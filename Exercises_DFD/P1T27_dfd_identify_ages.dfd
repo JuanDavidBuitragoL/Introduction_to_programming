@@ -1,0 +1,138 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+149
+"SOFT- IDENTIFY AGES 1.0  MAKER: Juan David Buitrago Lozano - This software identifies the number of minors, teenagers, adults, olders and matusalen"
+4
+1
+33
+"Type the number of people below"
+5
+1
+15
+v_total_persons
+7
+0
+1
+20
+v_total_persons <=1 
+6
+3
+8
+v_minors
+1
+0
+8
+v_adults
+1
+0
+11
+v_teenagers
+1
+0
+6
+2
+7
+v_older
+1
+0
+11
+v_matusalen
+1
+0
+8
+1
+1
+i
+1
+1
+1
+1
+15
+v_total_persons
+1
+1
+1
+4
+1
+33
+"Input the age of the person ", i
+5
+1
+5
+v_age
+7
+0
+1
+11
+v_age >= 90
+7
+0
+1
+10
+v_age >=60
+7
+0
+1
+11
+v_age >= 40
+7
+0
+1
+11
+v_age >= 19
+6
+1
+8
+v_minors
+12
+v_minors + 1
+13
+6
+1
+11
+v_teenagers
+14
+v_teenagers+ 1
+13
+13
+6
+1
+8
+v_adults
+12
+v_adults + 1
+13
+13
+6
+1
+7
+v_older
+11
+v_older + 1
+13
+13
+6
+1
+11
+v_matusalen
+15
+v_matusalen + 1
+13
+10
+4
+1
+180
+"The number of minors are: ", v_minors, " - the number of teenagers are: ", v_teenagers, " - the number of olders are: ", v_older, " and the number of matusalen are: ", v_matusalen
+13
+4
+1
+37
+"ERR: The number must be more than 1"
+13
+1

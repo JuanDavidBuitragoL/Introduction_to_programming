@@ -1,0 +1,103 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+185
+"SOFT - SALARY- V 1.0  MAKER: Juan David Buitrago Lozano - this software calculates the average salary - total salary and the highest salary by N employees -->input the total employees"
+5
+1
+17
+v_total_employees
+7
+0
+1
+21
+v_total_employees <=0
+6
+3
+11
+v_average_s
+1
+0
+9
+v_total_s
+1
+0
+11
+v_highest_s
+1
+0
+8
+1
+1
+i
+1
+1
+1
+1
+17
+v_total_employees
+1
+1
+1
+4
+1
+45
+"Input the gross salary by the employeed ", i
+5
+1
+9
+v_gross_s
+4
+1
+41
+"Input the working days by the employeed"
+5
+1
+11
+v_work_days
+6
+2
+8
+v_salary
+28
+(v_gross_s/30) * v_work_days
+9
+v_total_s
+20
+v_total_s + v_salary
+7
+0
+1
+22
+v_salary > v_highest_s
+13
+6
+1
+11
+v_highest_s
+8
+v_salary
+13
+10
+6
+1
+11
+v_average_s
+17
+v_total_employees
+4
+1
+115
+"The total salary is: ", v_total_s, " - the average is: ", v_average_s, " and the highest salary is: ", v_highest_s
+13
+4
+1
+47
+"ERR: the number entered cannot be less than 0"
+13
+1
