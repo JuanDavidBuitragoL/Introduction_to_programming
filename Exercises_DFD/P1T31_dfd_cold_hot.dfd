@@ -1,0 +1,123 @@
+ Dfd (c)
+1
+1
+2
+0
+0
+4
+1
+138
+"SOFT-COLD AND HOT V 1.0  MAKER: Juan David Buitrago Lozano - this MathGame try to simulate HOT and COOL find number - you have 5 attemps"
+6
+2
+12
+v_sys_number
+15
+1 + random(100)
+9
+v_attemps
+1
+5
+12
+1
+14
+p_input_number
+1
+13
+v_user_number
+9
+1
+47
+v_sys_number != v_user_number AND v_attemps > 0
+6
+2
+9
+v_attemps
+13
+v_attemps - 1
+5
+v_dif
+28
+v_sys_number - v_user_number
+7
+0
+1
+15
+abs(v_dif) <= 5
+7
+1
+1
+9
+v_dif > 0
+4
+1
+9
+"Cold up"
+13
+4
+1
+11
+"Cold down"
+13
+13
+4
+1
+14
+"You are hot!"
+13
+12
+1
+14
+p_input_number
+1
+13
+v_user_number
+11
+7
+0
+1
+13
+v_attemps > 0
+4
+1
+57
+"Sorry you lost - the correct number was: ", v_sys_number
+13
+4
+1
+37
+"Congratulations you got it right!!!"
+13
+1
+2
+1
+14
+p_input_number
+1
+13
+v_user_number
+1
+39
+This sub-program return to valid number
+4
+1
+33
+"Type a number between 1 and 100"
+5
+1
+13
+v_user_number
+9
+1
+38
+v_user_number <0 OR v_user_number >100
+4
+1
+59
+"ERR: your number must be greater than 1 and less than 100"
+5
+1
+13
+v_user_number
+11
+3
